@@ -1,0 +1,322 @@
+[
+    {
+        "id": 194,
+        "name": "Fried Egg"
+    },
+    {
+        "id": 195,
+        "name": "Omelet"
+    },
+    {
+        "id": 196,
+        "name": "Salad"
+    },
+    {
+        "id": 197,
+        "name": "Cheese Cauliflower"
+    },
+    {
+        "id": 198,
+        "name": "Baked Fish"
+    },
+    {
+        "id": 199,
+        "name": "Parsnip Soup"
+    },
+    {
+        "id": 200,
+        "name": "Vegetable Medley"
+    },
+    {
+        "id": 201,
+        "name": "Complete Breakfast"
+    },
+    {
+        "id": 202,
+        "name": "Fried Calamari"
+    },
+    {
+        "id": 203,
+        "name": "Strange Bun"
+    },
+    {
+        "id": 204,
+        "name": "Lucky Lunch"
+    },
+    {
+        "id": 205,
+        "name": "Fried Mushroom"
+    },
+    {
+        "id": 206,
+        "name": "Pizza"
+    },
+    {
+        "id": 207,
+        "name": "Bean Hotpot"
+    },
+    {
+        "id": 208,
+        "name": "Glazed Yams"
+    },
+    {
+        "id": 209,
+        "name": "Carp Surprise"
+    },
+    {
+        "id": 210,
+        "name": "Hashbrowns"
+    },
+    {
+        "id": 211,
+        "name": "Pancakes"
+    },
+    {
+        "id": 212,
+        "name": "Salmon Dinner"
+    },
+    {
+        "id": 213,
+        "name": "Fish Taco"
+    },
+    {
+        "id": 214,
+        "name": "Crispy Bass"
+    },
+    {
+        "id": 215,
+        "name": "Pepper Poppers"
+    },
+    {
+        "id": 216,
+        "name": "Bread"
+    },
+    {
+        "id": 218,
+        "name": "Tom Kha Soup"
+    },
+    {
+        "id": 219,
+        "name": "Trout Soup"
+    },
+    {
+        "id": 220,
+        "name": "Chocolate Cake"
+    },
+    {
+        "id": 221,
+        "name": "Pink Cake"
+    },
+    {
+        "id": 222,
+        "name": "Rhubarb Pie"
+    },
+    {
+        "id": 223,
+        "name": "Cookie"
+    },
+    {
+        "id": 224,
+        "name": "Spaghetti"
+    },
+    {
+        "id": 225,
+        "name": "Fried Eel"
+    },
+    {
+        "id": 226,
+        "name": "Spicy Eel"
+    },
+    {
+        "id": 227,
+        "name": "Sashimi"
+    },
+    {
+        "id": 228,
+        "name": "Maki Roll"
+    },
+    {
+        "id": 229,
+        "name": "Tortilla"
+    },
+    {
+        "id": 230,
+        "name": "Red Plate"
+    },
+    {
+        "id": 231,
+        "name": "Eggplant Parmesan"
+    },
+    {
+        "id": 232,
+        "name": "Rice Pudding"
+    },
+    {
+        "id": 233,
+        "name": "Ice Cream"
+    },
+    {
+        "id": 234,
+        "name": "Blueberry Tart"
+    },
+    {
+        "id": 235,
+        "name": "Autumn's Bounty"
+    },
+    {
+        "id": 236,
+        "name": "Pumpkin Soup"
+    },
+    {
+        "id": 237,
+        "name": "Super Meal"
+    },
+    {
+        "id": 238,
+        "name": "Cranberry Sauce"
+    },
+    {
+        "id": 239,
+        "name": "Stuffing"
+    },
+    {
+        "id": 240,
+        "name": "Farmer's Lunch"
+    },
+    {
+        "id": 241,
+        "name": "Survival Burger"
+    },
+    {
+        "id": 242,
+        "name": "Dish O' The Sea"
+    },
+    {
+        "id": 243,
+        "name": "Miner's Treat"
+    },
+    {
+        "id": 244,
+        "name": "Roots Platter"
+    },
+    {
+        "id": 253,
+        "name": "Triple Shot Espresso"
+    },
+    {
+        "id": 265,
+        "name": "Seafoam Pudding"
+    },
+    {
+        "id": 456,
+        "name": "Algae Soup"
+    },
+    {
+        "id": 457,
+        "name": "Pale Broth"
+    },
+    {
+        "id": 604,
+        "name": "Plum Pudding"
+    },
+    {
+        "id": 605,
+        "name": "Artichoke Dip"
+    },
+    {
+        "id": 606,
+        "name": "Stir Fry"
+    },
+    {
+        "id": 607,
+        "name": "Roasted Hazelnuts"
+    },
+    {
+        "id": 608,
+        "name": "Pumpkin Pie"
+    },
+    {
+        "id": 609,
+        "name": "Radish Salad"
+    },
+    {
+        "id": 610,
+        "name": "Fruit Salad"
+    },
+    {
+        "id": 611,
+        "name": "Blackberry Cobbler"
+    },
+    {
+        "id": 612,
+        "name": "Cranberry Candy"
+    },
+    {
+        "id": 618,
+        "name": "Bruschetta"
+    },
+    {
+        "id": 648,
+        "name": "Coleslaw"
+    },
+    {
+        "id": 649,
+        "name": "Fiddlehead Risotto"
+    },
+    {
+        "id": 651,
+        "name": "Poppyseed Muffin"
+    },
+    {
+        "id": 727,
+        "name": "Chowder"
+    },
+    {
+        "id": 728,
+        "name": "Fish Stew"
+    },
+    {
+        "id": 729,
+        "name": "Escargot"
+    },
+    {
+        "id": 730,
+        "name": "Lobster Bisque"
+    },
+    {
+        "id": 731,
+        "name": "Maple Bar"
+    },
+    {
+        "id": 732,
+        "name": "Crab Cakes"
+    },
+    {
+        "id": 733,
+        "name": "Shrimp Cocktail"
+    },
+    {
+        "id": 903,
+        "name": "Ginger Ale"
+    },
+    {
+        "id": 904,
+        "name": "Banana Pudding"
+    },
+    {
+        "id": 905,
+        "name": "Mango Sticky Rice"
+    },
+    {
+        "id": 906,
+        "name": "Poi"
+    },
+    {
+        "id": 907,
+        "name": "Tropical Curry"
+    },
+    {
+        "id": 921,
+        "name": "Squid Ink Ravioli"
+    }
+]
