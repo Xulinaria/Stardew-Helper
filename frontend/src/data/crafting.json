@@ -1,367 +1,367 @@
 [
-    {
-        "id": 286,
-        "name": "Cherry Bomb",
-        "description": "Generates a small explosion. Stand back!"
-    },
-    {
-        "id": 287,
-        "name": "Bomb",
-        "description": "Generates an explosion. Watch out!"
-    },
-    {
-        "id": 288,
-        "name": "Mega Bomb",
-        "description": "Generates a powerful explosion. Use with extreme caution."
-    },
-    {
-        "id": 325,
-        "name": "Gate",
-        "description": "Allows you to pass through a fence."
-    },
-    {
-        "id": 322,
-        "name": "Wood Fence",
-        "description": "Keeps grass and animals contained!"
-    },
-    {
-        "id": 323,
-        "name": "Stone Fence",
-        "description": "Lasts longer than a wood fence."
-    },
-    {
-        "id": 324,
-        "name": "Iron Fence (10)",
-        "description": "Lasts longer than a stone fence."
-    },
-    {
-        "id": 298,
-        "name": "Hardwood Fence",
-        "description": "The most durable type of fence."
-    },
-    {
-        "id": 599,
-        "name": "Sprinkler",
-        "description": "Waters the 4 adjacent tiles every morning."
-    },
-    {
-        "id": 621,
-        "name": "Quality Sprinkler",
-        "description": "Waters the 8 adjacent tiles every morning."
-    },
-    {
-        "id": 645,
-        "name": "Iridium Sprinkler",
-        "description": "Waters the 24 adjacent tiles every morning."
-    },
-    {
-        "id": 368,
-        "name": "Basic Fertilizer",
-        "description": "Improves soil quality a little, increasing your chance to grow quality crops. Mix into tilled soil."
-    },
-    {
-        "id": 369,
-        "name": "Quality Fertilizer",
-        "description": "Improves soil quality, increasing your chance to grow quality crops. Mix into tilled soil."
-    },
-    {
-        "id": 919,
-        "name": "Deluxe Fertilizer (5)",
-        "description": "Greatly improves soil quality, increasing your chance to grow quality crops. Mix into tilled soil."
-    },
-    {
-        "id": 465,
-        "name": "Speed-Gro (5)",
-        "description": "Stimulates leaf production. Guaranteed to increase growth rate by at least 10%. Mix into tilled soil"
-    },
-    {
-        "id": 466,
-        "name": "Deluxe Speed-Gro (5)",
-        "description": "Stimulates leaf production. Guaranteed to increase growth rate by at least 25%. Mix into tilled soil."
-    },
-    {
-        "id": 918,
-        "name": "Hyper Speed-Gro",
-        "description": "Greatly stimulates leaf production. Guaranteed to increase growth rate by at least 33%. Mix into tilled soil."
-    },
-    {
-        "id": 370,
-        "name": "Basic Retaining Soil",
-        "description": "This soil has a chance of staying watered overnight. Mix into tilled soil."
-    },
-    {
-        "id": 371,
-        "name": "Quality Retaining Soil (2)",
-        "description": "This soil has a good chance of staying watered overnight. Mix into tilled soil."
-    },
-    {
-        "id": 920,
-        "name": "Deluxe Retaining Soil",
-        "description": "This soil has a 100% chance of staying watered overnight. Mix into tilled soil"
-    },
-    {
-        "id": 805,
-        "name": "Tree Fertilizer",
-        "description": "Sprinkle on a wild tree to ensure rapid growth, even in winter. Doesn't work on fruit trees."
-    },
-    {
-        "id": 495,
-        "name": "Spring Seeds",
-        "description": "An assortment of wild spring seeds."
-    },
-    {
-        "id": 496,
-        "name": "Summer Seeds",
-        "description": "An assortment of wild summer seeds."
-    },
-    {
-        "id": 497,
-        "name": "Fall Seeds",
-        "description": "An assortment of wild summer seeds."
-    },
-    {
-        "id": 498,
-        "name": "Winter Seeds",
-        "description": "An assortment of wild summer seeds."
-    },
-    {
-        "id": 499,
-        "name": "Ancient Seeds",
-        "description": "Could these still grow?"
-    },
-    {
-        "id": 297,
-        "name": "Grass Starter",
-        "description": "Takes 20 days to mature. Produces tea leaves during the final week of each season, except winter. No watering necessary!"
-    },
-    {
-        "id": 251,
-        "name": "Tea Sapling",
-        "description": "Plant these in any season. Does not require watering. Harvest with the scythe. Takes 7 days to grow."
-    },
-    {
-        "id": 885,
-        "name": "Fiber Seeds (4)",
-        "description": "Plant these in any season. Does not require watering. Harvest with the scythe. Takes 7 days to grow."
-    },
-    {
-        "id": 328,
-        "name": "Wood Floor",
-        "description": "Place on the ground to create paths or to decorate your floors."
-    },
-    {
-        "id": 840,
-        "name": "Rustic Plank Floor",
-        "description": "Place on the ground to create paths or to decorate your floors."
-    },
-    {
-        "id": 401,
-        "name": "Straw Floor",
-        "description": "Place on the ground to create paths or to spruce up your floors."
-    },
-    {
-        "id": 331,
-        "name": "Weathered Floor",
-        "description": "Place on the ground to create paths or to spruce up your floors"
-    },
-    {
-        "id": 333,
-        "name": "Crystal Floor (5)",
-        "description": "Place on the ground to create paths or to spruce up your floors"
-    },
-    {
-        "id": 329,
-        "name": "Stone Floor",
-        "description": "Place on the ground to create paths or to spruce up your floors"
-    },
-    {
-        "id": 841,
-        "name": "Stone Walkway Floor",
-        "description": "Place on the ground to create paths or to decorate your floors."
-    },
-    {
-        "id": 293,
-        "name": "Brick Floor (5)",
-        "description": "Place on the ground to create paths or to decorate your floors."
-    },
-    {
-        "id": 405,
-        "name": "Wood Path",
-        "description": "Place on the ground to create paths or to spruce up your floors."
-    },
-    {
-        "id": 407,
-        "name": "Gravel Path",
-        "description": "Place on the ground to create paths or to spruce up your floors."
-    },
-    {
-        "id": 411,
-        "name": "Cobblestone Path",
-        "description": "Place on the ground to create paths or to spruce up your floors."
-    },
-    {
-        "id": 415,
-        "name": "Stepping Stone Path",
-        "description": "Place on the ground to create paths or to spruce up your floors."
-    },
-    {
-        "id": 409,
-        "name": "Crystal Path (5)",
-        "description": "Place on the ground to create paths or to spruce up your floors."
-    },
-    {
-        "id": 686,
-        "name": "Spinner",
-        "description": "The shape makes it spin around in the water. Slightly increases the bite-rate when fishing."
-    },
-    {
-        "id": 694,
-        "name": "Trap Bobber",
-        "description": "Causes fish to escape slower when you aren't reeling them in."
-    },
-    {
-        "id": 695,
-        "name": "Cork Bobber",
-        "description": "Slightly increases the size of your 'fishing bar'."
-    },
-    {
-        "id": 877,
-        "name": "Quality Bobber",
-        "description": "Boosts the quality of fish that you catch."
-    },
-    {
-        "id": 693,
-        "name": "Treasure Hunter",
-        "description": "Fish don't escape while collecting treasures. Also slightly increases the chance to find treasures."
-    },
-    {
-        "id": 687,
-        "name": "Dressed Spinner",
-        "description": "The metal tab and colorful streamers create an enticing spectacle for fish. Increases the bite-rate when fishing."
-    },
-    {
-        "id": 691,
-        "name": "Barbed Hook",
-        "description": "Makes your catch more secure, causing the 'fishing bar' to cling to your catch. Works best on slow, weak fish."
-    },
-    {
-        "id": 703,
-        "name": "Magnet (3)",
-        "description": "Increases the chance of finding treasures when fishing. However, fish aren't crazy about the taste."
-    },
-    {
-        "id": 685,
-        "name": "Bait (5)",
-        "description": "Causes fish to bite faster. Must first be attached to a fishing rod."
-    },
-    {
-        "id": 774,
-        "name": "Wild Bait (5)",
-        "description": "A unique recipe from Linus that gives you a chance to catch two fish at once."
-    },
-    {
-        "id": 908,
-        "name": "Magic Bait (5)",
-        "description": "Allows you to catch fish from any season, time, or weather, from whichever type of water you cast into."
-    },
-    {
-        "id": 710,
-        "name": "Crab Pot",
-        "description": "Place it in the water, load it with bait, and check the next day to see if you've caught anything. Works in streams, lakes, and the ocean."
-    },
-    {
-        "id": 525,
-        "name": "Sturdy Ring",
-        "description": "Cuts the duration of negative status effects in half."
-    },
-    {
-        "id": 521,
-        "name": "Warrior Ring",
-        "description": "Occasionally infuses the wearer with 'warrior energy' after slaying a monster."
-    },
-    {
-        "id": 524,
-        "name": "Ring of Yoba",
-        "description": "Occasionally shields the wearer from damage."
-    },
-    {
-        "id": 839,
-        "name": "Thorns Ring",
-        "description": "When enemies damage you, they will take damage themselves."
-    },
-    {
-        "id": 888,
-        "name": "Glowstone Ring",
-        "description": "Emits a constant light, and also increases your radius for collecting items."
-    },
-    {
-        "id": 527,
-        "name": "Iridium Band",
-        "description": "Glows, attracts items, and increases attack damage by 10%."
-    },
-    {
-        "id": 801,
-        "name": "Wedding Ring",
-        "description": "An old Zuzu City tradition... It's used to ask for another farmer's hand in marriage. Note: This recipe is available only in Multiplayer."
-    },
-    {
-        "id": 403,
-        "name": "Field Snack",
-        "description": "A quick snack to fuel the hungry forager."
-    },
-    {
-        "id": 874,
-        "name": "Bug Steak",
-        "description": "The last resort of the hungry cave diver."
-    },
-    {
-        "id": 773,
-        "name": "Life Elixir",
-        "description": "Restores health to full."
-    },
-    {
-        "id": 772,
-        "name": "Oil of Garlic",
-        "description": "Drink this and weaker monsters will avoid you."
-    },
-    {
-        "id": 879,
-        "name": "Monster Musk",
-        "description": "Spray this on to draw more monsters out of hiding."
-    },
-    {
-        "id": 872,
-        "name": "Fairy Dust",
-        "description": "Sprinkle on kegs, furnaces, and other refining equipment to instantly receive their product."
-    },
-    {
-        "id": 690,
-        "name": "Warp Totem: Beach",
-        "description": "Warp directly to the beach. Consumed on use."
-    },
-    {
-        "id": 689,
-        "name": "Warp Totem: Mountains",
-        "description": "Warp directly to the mountains. Consumed on use."
-    },
-    {
-        "id": 688,
-        "name": "Warp Totem: Farm",
-        "description": "Warp directly to your house. Consumed on use."
-    },
-    {
-        "id": 261,
-        "name": "Warp Totem: Desert",
-        "description": "Warp directly to Calico Desert. Consumed on use."
-    },
-    {
-        "id": 886,
-        "name": "Warp Totem: Island",
-        "description": "Warp directly to Ginger Island. Consumed on use."
-    },
-    {
-        "id": 681,
-        "name": "Rain Totem",
-        "description": "Activate to greatly increase the chance for rain tomorrow. Consumed on use."
-    }
+  {
+    "id": 286,
+    "name": "Cherry Bomb",
+    "description": "Generates a small explosion. Stand back!"
+  },
+  {
+    "id": 287,
+    "name": "Bomb",
+    "description": "Generates an explosion. Watch out!"
+  },
+  {
+    "id": 288,
+    "name": "Mega Bomb",
+    "description": "Generates a powerful explosion. Use with extreme caution."
+  },
+  {
+    "id": 325,
+    "name": "Gate",
+    "description": "Allows you to pass through a fence."
+  },
+  {
+    "id": 322,
+    "name": "Wood Fence",
+    "description": "Keeps grass and animals contained!"
+  },
+  {
+    "id": 323,
+    "name": "Stone Fence",
+    "description": "Lasts longer than a wood fence."
+  },
+  {
+    "id": 324,
+    "name": "Iron Fence (10)",
+    "description": "Lasts longer than a stone fence."
+  },
+  {
+    "id": 298,
+    "name": "Hardwood Fence",
+    "description": "The most durable type of fence."
+  },
+  {
+    "id": 599,
+    "name": "Sprinkler",
+    "description": "Waters the 4 adjacent tiles every morning."
+  },
+  {
+    "id": 621,
+    "name": "Quality Sprinkler",
+    "description": "Waters the 8 adjacent tiles every morning."
+  },
+  {
+    "id": 645,
+    "name": "Iridium Sprinkler",
+    "description": "Waters the 24 adjacent tiles every morning."
+  },
+  {
+    "id": 368,
+    "name": "Basic Fertilizer",
+    "description": "Improves soil quality a little, increasing your chance to grow quality crops. Mix into tilled soil."
+  },
+  {
+    "id": 369,
+    "name": "Quality Fertilizer",
+    "description": "Improves soil quality, increasing your chance to grow quality crops. Mix into tilled soil."
+  },
+  {
+    "id": 919,
+    "name": "Deluxe Fertilizer (5)",
+    "description": "Greatly improves soil quality, increasing your chance to grow quality crops. Mix into tilled soil."
+  },
+  {
+    "id": 465,
+    "name": "Speed-Gro (5)",
+    "description": "Stimulates leaf production. Guaranteed to increase growth rate by at least 10%. Mix into tilled soil"
+  },
+  {
+    "id": 466,
+    "name": "Deluxe Speed-Gro (5)",
+    "description": "Stimulates leaf production. Guaranteed to increase growth rate by at least 25%. Mix into tilled soil."
+  },
+  {
+    "id": 918,
+    "name": "Hyper Speed-Gro",
+    "description": "Greatly stimulates leaf production. Guaranteed to increase growth rate by at least 33%. Mix into tilled soil."
+  },
+  {
+    "id": 370,
+    "name": "Basic Retaining Soil",
+    "description": "This soil has a chance of staying watered overnight. Mix into tilled soil."
+  },
+  {
+    "id": 371,
+    "name": "Quality Retaining Soil (2)",
+    "description": "This soil has a good chance of staying watered overnight. Mix into tilled soil."
+  },
+  {
+    "id": 920,
+    "name": "Deluxe Retaining Soil",
+    "description": "This soil has a 100% chance of staying watered overnight. Mix into tilled soil"
+  },
+  {
+    "id": 805,
+    "name": "Tree Fertilizer",
+    "description": "Sprinkle on a wild tree to ensure rapid growth, even in winter. Doesn't work on fruit trees."
+  },
+  {
+    "id": 495,
+    "name": "Spring Seeds",
+    "description": "An assortment of wild spring seeds."
+  },
+  {
+    "id": 496,
+    "name": "Summer Seeds",
+    "description": "An assortment of wild summer seeds."
+  },
+  {
+    "id": 497,
+    "name": "Fall Seeds",
+    "description": "An assortment of wild summer seeds."
+  },
+  {
+    "id": 498,
+    "name": "Winter Seeds",
+    "description": "An assortment of wild summer seeds."
+  },
+  {
+    "id": 499,
+    "name": "Ancient Seeds",
+    "description": "Could these still grow?"
+  },
+  {
+    "id": 297,
+    "name": "Grass Starter",
+    "description": "Takes 20 days to mature. Produces tea leaves during the final week of each season, except winter. No watering necessary!"
+  },
+  {
+    "id": 251,
+    "name": "Tea Sapling",
+    "description": "Plant these in any season. Does not require watering. Harvest with the scythe. Takes 7 days to grow."
+  },
+  {
+    "id": 885,
+    "name": "Fiber Seeds (4)",
+    "description": "Plant these in any season. Does not require watering. Harvest with the scythe. Takes 7 days to grow."
+  },
+  {
+    "id": 328,
+    "name": "Wood Floor",
+    "description": "Place on the ground to create paths or to decorate your floors."
+  },
+  {
+    "id": 840,
+    "name": "Rustic Plank Floor",
+    "description": "Place on the ground to create paths or to decorate your floors."
+  },
+  {
+    "id": 401,
+    "name": "Straw Floor",
+    "description": "Place on the ground to create paths or to spruce up your floors."
+  },
+  {
+    "id": 331,
+    "name": "Weathered Floor",
+    "description": "Place on the ground to create paths or to spruce up your floors"
+  },
+  {
+    "id": 333,
+    "name": "Crystal Floor (5)",
+    "description": "Place on the ground to create paths or to spruce up your floors"
+  },
+  {
+    "id": 329,
+    "name": "Stone Floor",
+    "description": "Place on the ground to create paths or to spruce up your floors"
+  },
+  {
+    "id": 841,
+    "name": "Stone Walkway Floor",
+    "description": "Place on the ground to create paths or to decorate your floors."
+  },
+  {
+    "id": 293,
+    "name": "Brick Floor (5)",
+    "description": "Place on the ground to create paths or to decorate your floors."
+  },
+  {
+    "id": 405,
+    "name": "Wood Path",
+    "description": "Place on the ground to create paths or to spruce up your floors."
+  },
+  {
+    "id": 407,
+    "name": "Gravel Path",
+    "description": "Place on the ground to create paths or to spruce up your floors."
+  },
+  {
+    "id": 411,
+    "name": "Cobblestone Path",
+    "description": "Place on the ground to create paths or to spruce up your floors."
+  },
+  {
+    "id": 415,
+    "name": "Stepping Stone Path",
+    "description": "Place on the ground to create paths or to spruce up your floors."
+  },
+  {
+    "id": 409,
+    "name": "Crystal Path (5)",
+    "description": "Place on the ground to create paths or to spruce up your floors."
+  },
+  {
+    "id": 686,
+    "name": "Spinner",
+    "description": "The shape makes it spin around in the water. Slightly increases the bite-rate when fishing."
+  },
+  {
+    "id": 694,
+    "name": "Trap Bobber",
+    "description": "Causes fish to escape slower when you aren't reeling them in."
+  },
+  {
+    "id": 695,
+    "name": "Cork Bobber",
+    "description": "Slightly increases the size of your 'fishing bar'."
+  },
+  {
+    "id": 877,
+    "name": "Quality Bobber",
+    "description": "Boosts the quality of fish that you catch."
+  },
+  {
+    "id": 693,
+    "name": "Treasure Hunter",
+    "description": "Fish don't escape while collecting treasures. Also slightly increases the chance to find treasures."
+  },
+  {
+    "id": 687,
+    "name": "Dressed Spinner",
+    "description": "The metal tab and colorful streamers create an enticing spectacle for fish. Increases the bite-rate when fishing."
+  },
+  {
+    "id": 691,
+    "name": "Barbed Hook",
+    "description": "Makes your catch more secure, causing the 'fishing bar' to cling to your catch. Works best on slow, weak fish."
+  },
+  {
+    "id": 703,
+    "name": "Magnet (3)",
+    "description": "Increases the chance of finding treasures when fishing. However, fish aren't crazy about the taste."
+  },
+  {
+    "id": 685,
+    "name": "Bait (5)",
+    "description": "Causes fish to bite faster. Must first be attached to a fishing rod."
+  },
+  {
+    "id": 774,
+    "name": "Wild Bait (5)",
+    "description": "A unique recipe from Linus that gives you a chance to catch two fish at once."
+  },
+  {
+    "id": 908,
+    "name": "Magic Bait (5)",
+    "description": "Allows you to catch fish from any season, time, or weather, from whichever type of water you cast into."
+  },
+  {
+    "id": 710,
+    "name": "Crab Pot",
+    "description": "Place it in the water, load it with bait, and check the next day to see if you've caught anything. Works in streams, lakes, and the ocean."
+  },
+  {
+    "id": 525,
+    "name": "Sturdy Ring",
+    "description": "Cuts the duration of negative status effects in half."
+  },
+  {
+    "id": 521,
+    "name": "Warrior Ring",
+    "description": "Occasionally infuses the wearer with 'warrior energy' after slaying a monster."
+  },
+  {
+    "id": 524,
+    "name": "Ring of Yoba",
+    "description": "Occasionally shields the wearer from damage."
+  },
+  {
+    "id": 839,
+    "name": "Thorns Ring",
+    "description": "When enemies damage you, they will take damage themselves."
+  },
+  {
+    "id": 888,
+    "name": "Glowstone Ring",
+    "description": "Emits a constant light, and also increases your radius for collecting items."
+  },
+  {
+    "id": 527,
+    "name": "Iridium Band",
+    "description": "Glows, attracts items, and increases attack damage by 10%."
+  },
+  {
+    "id": 801,
+    "name": "Wedding Ring",
+    "description": "An old Zuzu City tradition... It's used to ask for another farmer's hand in marriage. Note: This recipe is available only in Multiplayer."
+  },
+  {
+    "id": 403,
+    "name": "Field Snack",
+    "description": "A quick snack to fuel the hungry forager."
+  },
+  {
+    "id": 874,
+    "name": "Bug Steak",
+    "description": "The last resort of the hungry cave diver."
+  },
+  {
+    "id": 773,
+    "name": "Life Elixir",
+    "description": "Restores health to full."
+  },
+  {
+    "id": 772,
+    "name": "Oil of Garlic",
+    "description": "Drink this and weaker monsters will avoid you."
+  },
+  {
+    "id": 879,
+    "name": "Monster Musk",
+    "description": "Spray this on to draw more monsters out of hiding."
+  },
+  {
+    "id": 872,
+    "name": "Fairy Dust",
+    "description": "Sprinkle on kegs, furnaces, and other refining equipment to instantly receive their product."
+  },
+  {
+    "id": 690,
+    "name": "Warp Totem: Beach",
+    "description": "Warp directly to the beach. Consumed on use."
+  },
+  {
+    "id": 689,
+    "name": "Warp Totem: Mountains",
+    "description": "Warp directly to the mountains. Consumed on use."
+  },
+  {
+    "id": 688,
+    "name": "Warp Totem: Farm",
+    "description": "Warp directly to your house. Consumed on use."
+  },
+  {
+    "id": 261,
+    "name": "Warp Totem: Desert",
+    "description": "Warp directly to Calico Desert. Consumed on use."
+  },
+  {
+    "id": 886,
+    "name": "Warp Totem: Island",
+    "description": "Warp directly to Ginger Island. Consumed on use."
+  },
+  {
+    "id": 681,
+    "name": "Rain Totem",
+    "description": "Activate to greatly increase the chance for rain tomorrow. Consumed on use."
+  }
 ]
