@@ -5,7 +5,7 @@ export default function Document() {
         <Html lang="eu">
             <Head>
                 <meta charSet="utg-8" />
-                <title>StardewValley Helper</title>
+                <title>Stardew Valley</title>
                 <link rel="icon" href="/assets/logo/icon.jpg" />
             </Head>
 
@@ -14,5 +14,5 @@ export default function Document() {
                 <NextScript />
             </body>
         </Html>
-    )
+    ) 
 }
