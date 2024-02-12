@@ -10,7 +10,7 @@ public class ParserXml
         List <Room> rooms = new List<Room>();
         XmlDocument fileXml = new XmlDocument();
         
-        fileXml.Load("C:\\Users\\visah\\AppData\\Roaming\\StardewValley\\Saves\\Цурбер_300739138\\Цурбер_300739138");
+        fileXml.Load("C:\\Users\\KingPC\\AppData\\Roaming\\StardewValley\\Saves\\Цурбер_300739156\\Цурбер_300739156");
 
         XmlNodeList bundleDataNode = fileXml.GetElementsByTagName("bundleData");
         XmlNodeList bundlesNode = fileXml.GetElementsByTagName("bundles");

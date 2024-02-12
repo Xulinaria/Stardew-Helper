@@ -17,4 +17,18 @@ namespace backend.Controllers
             return Ok(rooms);
         }
     }
+    
+    [ApiController]
+    [Route("[controller]")]
+    public class PlayerController : ControllerBase
+    {
+        [HttpGet]
+        public ActionResult<IEnumerable<Player>> Get()
+        {
+            ParserPlayer parser = new ParserPlayer();
+            Player player = parser.MainPlayer();
+
+            return Ok(player);
+        }
+    }
 }

@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\visah\\source\\repos\\StardewValleyHelper\\backend\\backend.csproj": {}
+    "C:\\Users\\KingPC\\Documents\\projects\\Stardew-Helper\\backend\\backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\visah\\source\\repos\\StardewValleyHelper\\backend\\backend.csproj": {
+    "C:\\Users\\KingPC\\Documents\\projects\\Stardew-Helper\\backend\\backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\visah\\source\\repos\\StardewValleyHelper\\backend\\backend.csproj",
+        "projectUniqueName": "C:\\Users\\KingPC\\Documents\\projects\\Stardew-Helper\\backend\\backend.csproj",
         "projectName": "backend",
-        "projectPath": "C:\\Users\\visah\\source\\repos\\StardewValleyHelper\\backend\\backend.csproj",
-        "packagesPath": "C:\\Users\\visah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\visah\\source\\repos\\StardewValleyHelper\\backend\\obj\\",
+        "projectPath": "C:\\Users\\KingPC\\Documents\\projects\\Stardew-Helper\\backend\\backend.csproj",
+        "packagesPath": "C:\\Users\\KingPC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\KingPC\\Documents\\projects\\Stardew-Helper\\backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\visah\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\KingPC\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -64,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\KingPC\\.dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

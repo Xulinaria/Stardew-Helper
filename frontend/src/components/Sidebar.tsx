@@ -13,7 +13,7 @@ export default function Sidebar() {
   ]
 
   return (
-    <div className="fixed flex flex-col min-h-[calc(100vh-64px)] max-h-[calc(100vh-64px)] w-72 px-6 py-4 border-r border-neutral-200">
+    <div className="fixed flex flex-col min-h-[calc(100vh-64px)] max-h-[calc(100vh-64px)] w-72 px-6 py-4 border-r border-neutral-200 dark:border-neutral-600">
       {SidebarNavigation.map((i) => (
         <Button name={i.name} href={i.href} key={i.name} />
       ))}
