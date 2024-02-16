@@ -11,7 +11,7 @@ export default function RoomItem({ id, quantity, compleat }: BundleItem) {
     <div className={classStyle}>
       <Image src={imageSrc} width={40} height={40} alt={'Bundle Image'} />
       {quantity < 100 && quantity > 1 && (
-        <span className="absolute flex items-center justify-center -right-1.5 -top-1.5 border rounded-full w-6 h-6 text-sm bg-white dark:bg-black">
+        <span className="absolute flex items-center justify-center -right-1.5 -top-1.5 border rounded-full w-6 h-6 text-sm bg-white dark:bg-neutral-950 dark:border-neutral-700">
           {quantity}
         </span>
       )}

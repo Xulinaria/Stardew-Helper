@@ -83,6 +83,7 @@ public class ParserPlayer
         
         return craftings;
     }
+    
 
     private List<Fish> ExtractFish(XmlNode fishCaughtNode)
     {
