@@ -1,5 +1,6 @@
 using System.Xml;
 using backend.Models;
+using Newtonsoft.Json;
 
 namespace backend.Parsers;
 
@@ -9,7 +10,7 @@ public class ParserPlayer
     {
         XmlDocument fileXml = new XmlDocument();
         fileXml.Load("C:\\Users\\KingPC\\AppData\\Roaming\\StardewValley\\Saves\\Цурбер_300739156\\Цурбер_300739156");
-
+        
         XmlNodeList mainPlayerNode = fileXml.GetElementsByTagName("player");
 
         Player player = new Player();
@@ -52,19 +53,32 @@ public class ParserPlayer
 
     private List<Cooking> ExtractCooking(XmlNode cookingRecipesNode)
     {
-        List<Cooking> cookings = new List<Cooking>();
+        string fileJson = "data\\cooking.json";
+        string jsonFromFile = File.ReadAllText(fileJson);
+        List<Cooking> initialCookings = JsonConvert.DeserializeObject<List<Cooking>>(jsonFromFile);
+        
+        List<Cooking> xmlCookings = new List<Cooking>();
 
         foreach (XmlNode cookingRecipe in cookingRecipesNode)
         {
             string keyString = cookingRecipe.SelectSingleNode("key/string").InnerText;
             int valueInt = int.Parse(cookingRecipe.SelectSingleNode("value/int").InnerText);
 
-            Cooking cooking = new Cooking(keyString, valueInt);
+            Cooking cooking = new Cooking();
+            cooking.xmlCooking(keyString,valueInt);
             
-            cookings.Add(cooking);
+            xmlCookings.Add(cooking);
         }
         
-        return cookings;
+        foreach (var cook in initialCookings)
+        {
+            var xmlCooking = xmlCookings.Find(x => x.Name == cook.Name);
+            if (xmlCooking != null)
+                cook.Quantity = xmlCooking.Quantity;
+            else cook.Quantity = -1;
+        }
+        
+        return initialCookings;
     }
     
     private List<Crafting> ExtractCrafting(XmlNode craftingRecipesNode)

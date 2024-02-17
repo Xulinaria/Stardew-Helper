@@ -7,6 +7,7 @@ export type Player = {
 }
 
 export type Cook = {
+  id: number
   name: string
   quantity: number
 }

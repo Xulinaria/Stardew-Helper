@@ -63,3 +63,5 @@ C:\Users\KingPC\Documents\projects\Stardew-Helper\backend\obj\Debug\net8.0\refin
 C:\Users\KingPC\Documents\projects\Stardew-Helper\backend\obj\Debug\net8.0\backend.pdb
 C:\Users\KingPC\Documents\projects\Stardew-Helper\backend\obj\Debug\net8.0\backend.genruntimeconfig.cache
 C:\Users\KingPC\Documents\projects\Stardew-Helper\backend\obj\Debug\net8.0\ref\backend.dll
+C:\Users\KingPC\Documents\projects\Stardew-Helper\backend\bin\Debug\net8.0\data\cooking.json
+C:\Users\KingPC\Documents\projects\Stardew-Helper\backend\bin\Debug\net8.0\Newtonsoft.Json.dll
