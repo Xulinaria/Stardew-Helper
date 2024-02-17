@@ -19,6 +19,8 @@ export type Craft = {
 
 export type Fish = {
   id: number
+  name: string
   quantity: number
   maxLength: number
+  description: string
 }

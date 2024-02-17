@@ -65,3 +65,4 @@ C:\Users\KingPC\Documents\projects\Stardew-Helper\backend\obj\Debug\net8.0\backe
 C:\Users\KingPC\Documents\projects\Stardew-Helper\backend\obj\Debug\net8.0\ref\backend.dll
 C:\Users\KingPC\Documents\projects\Stardew-Helper\backend\bin\Debug\net8.0\data\cooking.json
 C:\Users\KingPC\Documents\projects\Stardew-Helper\backend\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\KingPC\Documents\projects\Stardew-Helper\backend\bin\Debug\net8.0\data\fishing.json

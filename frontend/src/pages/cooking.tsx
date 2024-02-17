@@ -23,10 +23,10 @@ export default function Cooking() {
       {Object.values(player.cooking).map((cook) => (
         <div
           className={
-            cook.quantity >= 0
-              ? 'flex items-center border rounded-md py-2 px-4 bg-orange-500 dark:bg-orange-950 border-orange-800'
-              : cook.quantity >= 1
-                ? 'flex items-center border rounded-md py-2 px-4 bg-green-500 dark:bg-green-800 border-green-600'
+            cook.quantity >= 1
+              ? 'flex items-center border rounded-md py-2 px-4 bg-green-500/20 border-green-700'
+              : cook.quantity >= 0
+                ? 'flex items-center border rounded-md py-2 px-4 bg-orange-500/20 border-orange-800'
                 : 'flex items-center border rounded-md py-2 px-4 border-neutral-700'
           }
           key={cook.id}

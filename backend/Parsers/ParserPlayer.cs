@@ -101,7 +101,11 @@ public class ParserPlayer
 
     private List<Fish> ExtractFish(XmlNode fishCaughtNode)
     {
-        List<Fish> fishes = new List<Fish>();
+        string fileJson = "data\\fishing.json";
+        string jsonFromFile = File.ReadAllText(fileJson);
+        List<Fish> initialFishings = JsonConvert.DeserializeObject<List<Fish>>(jsonFromFile);
+        
+        List<Fish> xmlFishes = new List<Fish>();
 
         foreach (XmlNode fishCaught in fishCaughtNode)
         {
@@ -109,11 +113,23 @@ public class ParserPlayer
             int quantity = int.Parse(fishCaught.SelectSingleNode("value/ArrayOfInt/int").InnerText);
             int maxLength = int.Parse(fishCaught.SelectSingleNode("value/ArrayOfInt/int[2]").InnerText);
 
-            Fish fish = new Fish(id, quantity, maxLength);
+            Fish fish = new Fish();
+            fish.xmlFish(id, quantity, maxLength);
             
-            fishes.Add(fish);
+            xmlFishes.Add(fish);
         }
         
-        return fishes;
+        foreach (var fish in initialFishings)
+        {
+            var xmlFish = xmlFishes.Find(x => x.Id == fish.Id);
+            if (xmlFish != null)
+            {
+                fish.Quantity = xmlFish.Quantity;
+                fish.MaxLength = xmlFish.MaxLength;
+            }
+            else fish.Quantity = -1;
+        }
+        
+        return initialFishings;
     }
 }

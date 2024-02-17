@@ -5,11 +5,11 @@ export default function Sidebar() {
     { name: 'Farmer', href: '/' },
     { name: 'Bundles', href: '/bundles' },
     { name: 'Cooking', href: '/cooking' },
-    { name: 'Crafting', href: '/crafting' },
+    // { name: 'Crafting', href: '/crafting' },
     { name: 'Fishing', href: '/fishing' },
-    { name: 'Shipping', href: '/shipping' },
-    { name: 'Museum & Artifacts', href: '/museum' },
-    { name: 'search', href: '/search' },
+    // { name: 'Shipping', href: '/shipping' },
+    // { name: 'Museum & Artifacts', href: '/museum' },
+    // { name: 'search', href: '/search' },
   ]
 
   return (
