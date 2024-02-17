@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 
-import Image from 'next/image'
 import { Player } from '@/types/player'
+import BooleanCard from '@/components/cards/BooleanCard'
 
 export default function Cooking() {
   const [player, setPlayer] = useState<Player>({
@@ -21,27 +21,13 @@ export default function Cooking() {
   return (
     <div className="grid grid-cols-4 gap-4">
       {Object.values(player.cooking).map((cook) => (
-        <div
-          className={
-            cook.quantity >= 1
-              ? 'flex items-center border rounded-md py-2 px-4 bg-green-500/20 border-green-700'
-              : cook.quantity >= 0
-                ? 'flex items-center border rounded-md py-2 px-4 bg-orange-500/20 border-orange-800'
-                : 'flex items-center border rounded-md py-2 px-4 border-neutral-700'
-          }
+        <BooleanCard
+          id={cook.id}
+          name={cook.name}
+          quantity={cook.quantity}
+          description={cook.description}
           key={cook.id}
-        >
-          <Image
-            src={'/assets/items/' + cook.id + '.png'}
-            width={40}
-            height={40}
-            alt={'cook recept'}
-          />
-          <div className="ml-4 min-w-0">
-            <p className="truncate">{cook.name}</p>
-            <p className="truncate text-neutral-500 text-sm">Description</p>
-          </div>
-        </div>
+        />
       ))}
     </div>
   )

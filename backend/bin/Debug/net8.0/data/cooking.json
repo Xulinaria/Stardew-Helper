@@ -1,322 +1,402 @@
 [
   {
     "id": 194,
-    "name": "Fried Egg"
+    "name": "Fried Egg",
+    "description": "Sunny-side up."
   },
   {
     "id": 195,
-    "name": "Omelet"
+    "name": "Omelet",
+    "description": "It's super fluffy."
   },
   {
     "id": 196,
-    "name": "Salad"
+    "name": "Salad",
+    "description": "A healthy garden salad."
   },
   {
     "id": 197,
-    "name": "Cheese Cauliflower"
+    "name": "Cheese Cauliflower",
+    "description": "It smells great!"
   },
   {
     "id": 198,
-    "name": "Baked Fish"
+    "name": "Baked Fish",
+    "description": "Baked fish on a bed of herbs."
   },
   {
     "id": 199,
-    "name": "Parsnip Soup"
+    "name": "Parsnip Soup",
+    "description": "It's fresh and hearty."
   },
   {
     "id": 200,
-    "name": "Vegetable Medley"
+    "name": "Vegetable Medley",
+    "description": "This is very nutritious."
   },
   {
     "id": 201,
-    "name": "Complete Breakfast"
+    "name": "Complete Breakfast",
+    "description": "You'll feel ready to take on the world!"
   },
   {
     "id": 202,
-    "name": "Fried Calamari"
+    "name": "Fried Calamari",
+    "description": "It's so chewy."
   },
   {
     "id": 203,
-    "name": "Strange Bun"
+    "name": "Strange Bun",
+    "description": "What's inside?"
   },
   {
     "id": 204,
-    "name": "Lucky Lunch"
+    "name": "Lucky Lunch",
+    "description": "A special little meal."
   },
   {
     "id": 205,
-    "name": "Fried Mushroom"
+    "name": "Fried Mushroom",
+    "description": "Earthy and aromatic."
   },
   {
     "id": 206,
-    "name": "Pizza"
+    "name": "Pizza",
+    "description": "It's popular for all the right reasons."
   },
   {
     "id": 207,
-    "name": "Bean Hotpot"
+    "name": "Bean Hotpot",
+    "description": "It sure is healthy."
   },
   {
     "id": 208,
-    "name": "Glazed Yams"
+    "name": "Glazed Yams",
+    "description": "Sweet and satisfying... The sugar gives it a hint of caramel."
   },
   {
     "id": 209,
-    "name": "Carp Surprise"
+    "name": "Carp Surprise",
+    "description": "It's bland and oily."
   },
   {
     "id": 210,
-    "name": "Hashbrowns"
+    "name": "Hashbrowns",
+    "description": "Crispy and golden-brown!"
   },
   {
     "id": 211,
-    "name": "Pancakes"
+    "name": "Pancakes",
+    "description": "A double stack of fluffy, soft pancakes."
   },
   {
     "id": 212,
-    "name": "Salmon Dinner"
+    "name": "Salmon Dinner",
+    "description": "The lemon spritz makes it special."
   },
   {
     "id": 213,
-    "name": "Fish Taco"
+    "name": "Fish Taco",
+    "description": "It smells delicious."
   },
   {
     "id": 214,
-    "name": "Crispy Bass"
+    "name": "Crispy Bass",
+    "description": "Wow, the breading is perfect."
   },
   {
     "id": 215,
-    "name": "Pepper Poppers"
+    "name": "Pepper Poppers",
+    "description": "Spicy breaded peppers filled with cheese."
   },
   {
     "id": 216,
-    "name": "Bread"
+    "name": "Bread",
+    "description": "A crusty baguette."
   },
   {
     "id": 218,
-    "name": "Tom Kha Soup"
+    "name": "Tom Kha Soup",
+    "description": "These flavors are incredible!"
   },
   {
     "id": 219,
-    "name": "Trout Soup"
+    "name": "Trout Soup",
+    "description": "Pretty salty."
   },
   {
     "id": 220,
-    "name": "Chocolate Cake"
+    "name": "Chocolate Cake",
+    "description": "Rich and moist with a thick fudge icing."
   },
   {
     "id": 221,
-    "name": "Pink Cake"
+    "name": "Pink Cake",
+    "description": "There's little heart candies on top."
   },
   {
     "id": 222,
-    "name": "Rhubarb Pie"
+    "name": "Rhubarb Pie",
+    "description": "Mmm, tangy and sweet!"
   },
   {
     "id": 223,
-    "name": "Cookie"
+    "name": "Cookie",
+    "description": "Very chewy."
   },
   {
     "id": 224,
-    "name": "Spaghetti"
+    "name": "Spaghetti",
+    "description": "An old favorite."
   },
   {
     "id": 225,
-    "name": "Fried Eel"
+    "name": "Fried Eel",
+    "description": "Greasy but flavorful."
   },
   {
     "id": 226,
-    "name": "Spicy Eel"
+    "name": "Spicy Eel",
+    "description": "It's really spicy! Be careful."
   },
   {
     "id": 227,
-    "name": "Sashimi"
+    "name": "Sashimi",
+    "description": "Raw fish sliced into thin pieces."
   },
   {
     "id": 228,
-    "name": "Maki Roll"
+    "name": "Maki Roll",
+    "description": "Fish and rice wrapped in seaweed."
   },
   {
     "id": 229,
-    "name": "Tortilla"
+    "name": "Tortilla",
+    "description": "Can be used as a vessel for food or eaten by itself."
   },
   {
     "id": 230,
-    "name": "Red Plate"
+    "name": "Red Plate",
+    "description": "Full of antioxidants."
   },
   {
     "id": 231,
-    "name": "Eggplant Parmesan"
+    "name": "Eggplant Parmesan",
+    "description": "Tangy, cheesy, and wonderful."
   },
   {
     "id": 232,
-    "name": "Rice Pudding"
+    "name": "Rice Pudding",
+    "description": "It's creamy, sweet, and fun to eat."
   },
   {
     "id": 233,
-    "name": "Ice Cream"
+    "name": "Ice Cream",
+    "description": "It's hard to find someone who doesn't like this."
   },
   {
     "id": 234,
-    "name": "Blueberry Tart"
+    "name": "Blueberry Tart",
+    "description": "It's subtle and refreshing."
   },
   {
     "id": 235,
-    "name": "Autumn's Bounty"
+    "name": "Autumn's Bounty",
+    "description": "A taste of the season."
   },
   {
     "id": 236,
-    "name": "Pumpkin Soup"
+    "name": "Pumpkin Soup",
+    "description": "A seasonal favorite."
   },
   {
     "id": 237,
-    "name": "Super Meal"
+    "name": "Super Meal",
+    "description": "It's a really energizing meal."
   },
   {
     "id": 238,
-    "name": "Cranberry Sauce"
+    "name": "Cranberry Sauce",
+    "description": "A festive treat."
   },
   {
     "id": 239,
-    "name": "Stuffing"
+    "name": "Stuffing",
+    "description": "Ahh... the smell of warm bread and sage."
   },
   {
     "id": 240,
-    "name": "Farmer's Lunch"
+    "name": "Farmer's Lunch",
+    "description": "This'll keep you going."
   },
   {
     "id": 241,
-    "name": "Survival Burger"
+    "name": "Survival Burger",
+    "description": "A convenient snack for the explorer."
   },
   {
     "id": 242,
-    "name": "Dish o' The Sea"
+    "name": "Dish o' The Sea",
+    "description": "This'll keep you warm in the cold sea air."
   },
   {
     "id": 243,
-    "name": "Miner's Treat"
+    "name": "Miner's Treat",
+    "description": "This should keep your energy up."
   },
   {
     "id": 244,
-    "name": "Roots Platter"
+    "name": "Roots Platter",
+    "description": "This'll get you digging for more."
   },
   {
     "id": 253,
-    "name": "Triple Shot Espresso"
+    "name": "Triple Shot Espresso",
+    "description": "It's more potent than regular coffee!"
   },
   {
     "id": 265,
-    "name": "Seafoam Pudding"
+    "name": "Seafoam Pudding",
+    "description": "This briny pudding will really get you into the maritime mindset!"
   },
   {
     "id": 456,
-    "name": "Algae Soup"
+    "name": "Algae Soup",
+    "description": "It's a little slimy."
   },
   {
     "id": 457,
-    "name": "Pale Broth"
+    "name": "Pale Broth",
+    "description": "A delicate broth with a hint of sulfur."
   },
   {
     "id": 604,
-    "name": "Plum Pudding"
+    "name": "Plum Pudding",
+    "description": "A traditional holiday treat."
   },
   {
     "id": 605,
-    "name": "Artichoke Dip"
+    "name": "Artichoke Dip",
+    "description": "It's cool and refreshing."
   },
   {
     "id": 606,
-    "name": "Stir Fry"
+    "name": "Stir Fry",
+    "description": "Julienned vegetables on a bed of rice."
   },
   {
     "id": 607,
-    "name": "Roasted Hazelnuts"
+    "name": "Roasted Hazelnuts",
+    "description": "The roasting process creates a rich forest flavor."
   },
   {
     "id": 608,
-    "name": "Pumpkin Pie"
+    "name": "Pumpkin Pie",
+    "description": "Silky pumpkin cream in a flakey crust."
   },
   {
     "id": 609,
-    "name": "Radish Salad"
+    "name": "Radish Salad",
+    "description": "The radishes are so crisp!"
   },
   {
     "id": 610,
-    "name": "Fruit Salad"
+    "name": "Fruit Salad",
+    "description": "A delicious combination of summer fruits."
   },
   {
     "id": 611,
-    "name": "Blackberry Cobbler"
+    "name": "Blackberry Cobbler",
+    "description": "There's nothing quite like it."
   },
   {
     "id": 612,
-    "name": "Cranberry Candy"
+    "name": "Cranberry Candy",
+    "description": "It's sweet enough to mask the bitter fruit"
   },
   {
     "id": 618,
-    "name": "Bruschetta"
+    "name": "Bruschetta",
+    "description": "Roasted tomatoes on a crisp white bread."
   },
   {
     "id": 648,
-    "name": "Coleslaw"
+    "name": "Coleslaw",
+    "description": "It's light, fresh and very healthy."
   },
   {
     "id": 649,
-    "name": "Fiddlehead Risotto"
+    "name": "Fiddlehead Risotto",
+    "description": "A creamy rice dish served with sauteed fern heads. It's a little bland."
   },
   {
     "id": 651,
-    "name": "Poppyseed Muffin"
+    "name": "Poppyseed Muffin",
+    "description": "It has a soothing effect."
   },
   {
     "id": 727,
-    "name": "Chowder"
+    "name": "Chowder",
+    "description": "A perfect way to warm yourself after a cold night at sea."
   },
   {
     "id": 728,
-    "name": "Fish Stew"
+    "name": "Fish Stew",
+    "description": "It smells a lot like the sea. Tastes better, though."
   },
   {
     "id": 729,
-    "name": "Escargot"
+    "name": "Escargot",
+    "description": "Butter-soaked snails cooked to perfection."
   },
   {
     "id": 730,
-    "name": "Lobster Bisque"
+    "name": "Lobster Bisque",
+    "description": "This delicate soup is a secret family recipe of Willy's."
   },
   {
     "id": 731,
-    "name": "Maple Bar"
+    "name": "Maple Bar",
+    "description": "It's a sweet doughnut topped with a rich maple glaze."
   },
   {
     "id": 732,
-    "name": "Crab Cakes"
+    "name": "Crab Cakes",
+    "description": "Crab, bread crumbs, and egg formed into patties then fried to a golden brown."
   },
   {
     "id": 733,
-    "name": "Shrimp Cocktail"
+    "name": "Shrimp Cocktail",
+    "description": "A sumptuous appetizer made with freshly-caught shrimp."
   },
   {
     "id": 903,
-    "name": "Ginger Ale"
+    "name": "Ginger Ale",
+    "description": "A zesty soda known for its soothing effect on the stomach."
   },
   {
     "id": 904,
-    "name": "Banana Pudding"
+    "name": "Banana Pudding",
+    "description": "A creamy dessert with a wonderful tropical flavor."
   },
   {
     "id": 905,
-    "name": "Mango Sticky Rice"
+    "name": "Mango Sticky Rice",
+    "description": "Sweet mango and coconut transforms this rice into something very special."
   },
   {
     "id": 906,
-    "name": "Poi"
+    "name": "Poi",
+    "description": "A traditional food with a delicate, sweet flavor when eaten fresh."
   },
   {
     "id": 907,
-    "name": "Tropical Curry"
+    "name": "Tropical Curry",
+    "description": "An exotic, fragrant curry served in a pineapple bowl."
   },
   {
     "id": 921,
-    "name": "Squid Ink Ravioli"
+    "name": "Squid Ink Ravioli",
+    "description": "Temporarily protects from debuffs."
   }
 ]

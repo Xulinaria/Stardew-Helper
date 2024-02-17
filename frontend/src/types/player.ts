@@ -10,6 +10,7 @@ export type Cook = {
   id: number
   name: string
   quantity: number
+  description: string
 }
 
 export type Craft = {
