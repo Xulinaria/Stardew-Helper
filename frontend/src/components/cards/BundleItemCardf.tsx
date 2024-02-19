@@ -4,7 +4,7 @@ import Image from 'next/image'
 export default function BundleItemCard({ id, quantity, compleat }: BundleItem) {
   const imageSrc = '/assets/items/' + id + '.png'
   const classStyle = compleat
-    ? 'bg-green-500 dark:bg-green-800 relative border border-green-600 rounded-md p-2 mt-1'
+    ? 'bg-green-500 dark:bg-green-500/15 relative border border-green-600 rounded-md p-2 mt-1'
     : 'relative border dark:border-neutral-600 rounded-md p-2 mt-1'
 
   return (

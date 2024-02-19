@@ -15,12 +15,11 @@ export default function BooleanCard({
 }: Props) {
   const imageSrc = '/assets/items/' + id + '.png'
   const classStyle =
-    quantity >= 1
-      ? 'flex items-center border rounded-md py-2 px-4 bg-green-500/20 border-green-700'
-      : quantity >= 0
-        ? 'flex items-center border rounded-md py-2 px-4 bg-orange-500/20 border-orange-800'
-        : 'flex items-center border rounded-md py-2 px-4 border-neutral-700'
-
+    quantity > 0
+      ? 'flex items-center border rounded-md py-3 px-4 bg-green-500/10 border-green-700'
+      : quantity === 0
+        ? 'flex items-center border rounded-md py-3 px-4 bg-orange-500/20 border-orange-800'
+        : 'flex items-center border rounded-md py-3 px-4 border-neutral-700'
   return (
     <div className={classStyle}>
       <Image src={imageSrc} width={40} height={40} alt={name} />

@@ -9,7 +9,7 @@ public class ParserPlayer
     public Player MainPlayer()
     {
         XmlDocument fileXml = new XmlDocument();
-        fileXml.Load("C:\\Users\\KingPC\\AppData\\Roaming\\StardewValley\\Saves\\Цурбер_300739156\\Цурбер_300739156");
+        fileXml.Load("C:\\Users\\KingPC\\AppData\\Roaming\\StardewValley\\Saves\\KNIGHT_336590365\\KNIGHT_336590365");
         
         XmlNodeList mainPlayerNode = fileXml.GetElementsByTagName("player");
 
@@ -20,7 +20,7 @@ public class ParserPlayer
             string namePlayer = playerNode.SelectSingleNode("name").InnerText;
             
             List<int> pointsProfession = ExtractProfessions(playerNode.SelectSingleNode("experiencePoints"));
-            List<Cooking> cooking = ExtractCooking(playerNode.SelectSingleNode("cookingRecipes"));
+            List<Cooking> cooking = ExtractCooking(playerNode);
             List<Crafting> crafting = ExtractCrafting(playerNode.SelectSingleNode("craftingRecipes"));
             List<Fish> fishes = ExtractFish(playerNode.SelectSingleNode("fishCaught"));
             
@@ -51,30 +51,70 @@ public class ParserPlayer
         return pointsProfession;
     }
 
-    private List<Cooking> ExtractCooking(XmlNode cookingRecipesNode)
+    private List<Cooking> ExtractCooking(XmlNode playerNode)
     {
         string fileJson = "data\\cooking.json";
         string jsonFromFile = File.ReadAllText(fileJson);
         List<Cooking> initialCookings = JsonConvert.DeserializeObject<List<Cooking>>(jsonFromFile);
         
-        List<Cooking> xmlCookings = new List<Cooking>();
+        List<Cooking> xmlCookingRecipes = new List<Cooking>();
 
-        foreach (XmlNode cookingRecipe in cookingRecipesNode)
+        foreach (XmlNode cookingRecipe in playerNode.SelectSingleNode("cookingRecipes"))
         {
             string keyString = cookingRecipe.SelectSingleNode("key/string").InnerText;
             int valueInt = int.Parse(cookingRecipe.SelectSingleNode("value/int").InnerText);
 
+            switch (keyString)
+            {
+                case "Dish o' The Sea":
+                    keyString = "Dish O' The Sea";
+                    break;
+                case "Cheese Cauli.":
+                    keyString = "Cheese Cauliflower";
+                    break;
+                case "Vegetable Stew":
+                    keyString = "Vegetable Medley";
+                    break;
+                case "Cookies":
+                    keyString = "Cookie";
+                    break;
+                case "Eggplant Parm.":
+                    keyString = "Eggplant Parmesan";
+                    break;
+                case "Cran. Sauce":
+                    keyString = "Cranberry Sauce";
+                    break;
+            }
+
             Cooking cooking = new Cooking();
             cooking.xmlCooking(keyString,valueInt);
             
-            xmlCookings.Add(cooking);
+            xmlCookingRecipes.Add(cooking);
+        }
+
+        List<Cooking> xmlRecipesCooked = new List<Cooking>();
+
+        foreach (XmlNode recipesCooked in playerNode.SelectSingleNode("recipesCooked"))
+        {
+            string keyString = recipesCooked.SelectSingleNode("key/int").InnerText;
+            int valueInt = int.Parse(recipesCooked.SelectSingleNode("value/int").InnerText);
+
+            Cooking cooking = new Cooking();
+            cooking.xmlCooking(keyString, valueInt);
+            
+            xmlRecipesCooked.Add(cooking);
         }
         
         foreach (var cook in initialCookings)
         {
-            var xmlCooking = xmlCookings.Find(x => x.Name == cook.Name);
-            if (xmlCooking != null)
-                cook.Quantity = xmlCooking.Quantity;
+            var xmlCookingRecipe = xmlCookingRecipes.Find(x => x.Name == cook.Name);
+            var xmlRecipeCooked = xmlRecipesCooked.Find(x => int.Parse(x.Name) == cook.Id);
+            
+            if (xmlCookingRecipe != null)
+                if (xmlRecipeCooked != null)
+                    cook.Quantity = xmlRecipeCooked.Quantity;
+                else
+                    cook.Quantity = xmlCookingRecipe.Quantity;
             else cook.Quantity = -1;
         }
         
